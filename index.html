@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="judul">registration</div>
+    </nav>
+    <main>
+      <form action="#">
+        <div class="akun">
+          <p class="dataakun">Data Akun</p><hr>
+          <p class="nama">
+            <label for="username">Username*</label><br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+              min="4"
+              placeholder="Masukkan Username"
+            />
+          </p>
+          <p class="pass">
+            <label for="pass">Password*</label><br />
+            <input
+              type="password"
+              id="pass"
+              name="password"
+              required
+              min="8"
+              placeholder="Masukkan Password"
+            />
+          </p>
+          <p class="mail">
+            <label for="email">Email Peserta*</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              required
+            />
+          </p>
+        </div>
+        <div class="profil">
+          <p class="dataprofil">Data Profil</p><hr>
+          <p class="peserta">
+            <label for="peserta">Nama Peserta*</label><br />
+            <input
+              type="text"
+              id="peserta"
+              name="nama peserta"
+              placeholder="Masukkan Nama Peserta"
+            />
+          </p>
+          <p class="telp">
+            <label for="telepon">Telepon*</label><br />
+            <input
+              type="number"
+              id="telepon"
+              name="telepon"
+              required
+              min="11"
+              placeholder="Masukkan Nomor telepon"
+            />
+          </p>
+          <p class="sekolah">
+            <label for="sekolah">Asal Sekolah*</label><br />
+            <select name="asal sekolah" id="sekolah">
+              <option value="-">-pilih asal sekolah-</option>
+              <option value="SMANUSA">SMA NU 1 GRESIK</option>
+              <option value="SMANSA">SMAN 1 GRESIK</option>
+            </select>
+          </p>
+          <p class="jenislomba">
+            <label for="jenislomba">Jenis Lomba*</label><br />
+            <select name="jenislomba" id="jenislomba">
+              <option value="-">-Pilih Lomba-</option>
+              <option value="IPS">IPA</option>
+              <option value="IPS">IPS</option>
+            </select>
+          </p>
+        </div>
+        <button>Daftar</button>
+      </form>
+    </main>
+  </body>
+</html>
